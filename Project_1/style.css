@@ -1,0 +1,12 @@
+*{
+    margin: 0px;box-sizing: border-box;
+}
+.form{
+    background: silver; padding: 16px; margin: 100px auto; width: 400px;
+}
+.form_group{margin-bottom: 20px;}
+.label{display: block;}
+.form_group{width: 100%; padding: 12px; border: none;}
+.form_group[type="submit"],.form_group[type="reset"]{width: 50%; background: red;border: none; color: white; font-weight: 600;}
+.form_group[type="reset"]{background-color: blue;}
+::placeholder{color: red;}
